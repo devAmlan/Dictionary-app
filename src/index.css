@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +8,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wordform{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:100px;
+}
+.wordform input{
+  margin:10px;
+  width:250px;
+  height:28px;
+  outline:none;
+  border:2px solid rebeccapurple;
+  font-size:15px;
+  padding-left:6px;
+  font-family: 'Poppins', sans-serif;
+  font-weight:bolder;
+  border-radius:6px;
+}
+.wordform button{
+  width:100px;
+  height:30px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
 }
